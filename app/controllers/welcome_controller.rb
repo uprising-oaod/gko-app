@@ -1,5 +1,3 @@
 class WelcomeController < ApplicationController
-  def index
-    render plain: 'DAAAAA'
-  end
+  def index; end
 end
