@@ -18,6 +18,4 @@ class HealthController < ApplicationController
   def dashboard_params
     params.fetch(:dashboard, {}).permit(%w[file_name])
   end
-
-
 end

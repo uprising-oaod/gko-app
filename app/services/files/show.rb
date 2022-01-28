@@ -13,7 +13,7 @@ module Files
       res = []
       return nil unless File.file?("log/#{@file_name}.log")
 
-      log_lines_count = `wc -l "log/#{@file_name}.log"`.strip.split(' ')[0].to_i
+      log_lines_count = `wc -l "log/#{@file_name}.log"`.strip.split[0].to_i
       File.foreach("log/#{@file_name}.log").with_index do |line, index|
         next if index < log_lines_count - @lines_count
 
