@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
+# Модуль работы с файлами
 module Files
+  # Отобразить содержимое файла логов
   class Show
     attr_accessor :file_name, :lines_count
 
