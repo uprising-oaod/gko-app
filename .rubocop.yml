@@ -1,6 +1,7 @@
 require:
-  - rubocop-rails
   - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
 
 AllCops:
   TargetRubyVersion: 2.7
@@ -16,7 +17,6 @@ AllCops:
     - 'lib/generators/**/templates/*'
     - 'lib/tasks/**/*'
     - 'files/**/*'
-    - 'spec/**/*'
 
 Style/AsciiComments:
   Enabled: false
