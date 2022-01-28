@@ -32,5 +32,12 @@ group :development do
   gem 'web-console', '>= 4.1.0' # Access an interactive console on exception pages
 end
 
+group :test do
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
