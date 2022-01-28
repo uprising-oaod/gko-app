@@ -74,4 +74,5 @@ yarn-debug.log*
 .yarn-integrity
 
 .idea/*
+/.idea/*
 /.idea/*!/.idea/gko-app.iml
