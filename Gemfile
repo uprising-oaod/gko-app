@@ -31,6 +31,10 @@ gem 'bootstrap', '~> 5.1'
 
 gem 'paper_trail'
 
+gem 'rubocop'
+gem 'rubocop-rails'
+gem 'rubocop-performance'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 

@@ -1,0 +1,22 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'tmp/**/*'
+    - 'bin/**/*'
+    - 'plugins/**/*'
+    - 'extra/**/*'
+    - 'lib/generators/**/templates/*'
+    - 'lib/tasks/**/*'
+    - 'files/**/*'
+    - 'spec/**/*'
+
+Style/AsciiComments:
+  Enabled: false
