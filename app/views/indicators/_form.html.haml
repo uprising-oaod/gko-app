@@ -1,0 +1,23 @@
+= form_with(model: indicator) do |form|
+  - if indicator.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(indicator.errors.count, "error")
+        prohibited this indicator from being saved:
+      %ul
+        - indicator.errors.each do |error|
+          %li= error.full_message
+  .field
+    = form.label :code
+    = form.text_field :code
+  .field
+    = form.label :name
+    = form.text_field :name
+  .field
+    = form.label :title
+    = form.text_field :title
+  .field
+    = form.label :unit
+    = form.text_field :unit
+  .actions
+    = form.submit

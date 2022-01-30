@@ -1,0 +1,22 @@
+%p#notice= notice
+%h1 Indicators
+%table
+  %thead
+    %tr
+      %th Code
+      %th Name
+      %th Title
+      %th Unit
+      %th{:colspan => "3"}
+  %tbody
+    - @indicators.each do |indicator|
+      %tr
+        %td= indicator.code
+        %td= indicator.name
+        %td= indicator.title
+        %td= indicator.unit
+        %td= link_to 'Show', indicator
+        %td= link_to 'Edit', edit_indicator_path(indicator)
+        %td= link_to 'Destroy', indicator, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Indicator', new_indicator_path

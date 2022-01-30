@@ -1,0 +1,22 @@
+%p#notice= notice
+%h1 Medals
+%table
+  %thead
+    %tr
+      %th Code
+      %th Name
+      %th Title
+      %th Weight
+      %th{:colspan => "3"}
+  %tbody
+    - @medals.each do |medal|
+      %tr
+        %td= medal.code
+        %td= medal.name
+        %td= medal.title
+        %td= medal.weight
+        %td= link_to 'Show', medal
+        %td= link_to 'Edit', edit_medal_path(medal)
+        %td= link_to 'Destroy', medal, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Medal', new_medal_path

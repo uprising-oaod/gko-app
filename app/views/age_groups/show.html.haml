@@ -1,0 +1,19 @@
+%p#notice= notice
+%p
+  %strong Age:
+  = @age_group.age
+%p
+  %strong Gender:
+  = @age_group.gender
+%p
+  %strong Code:
+  = @age_group.code
+%p
+  %strong Name:
+  = @age_group.name
+%p
+  %strong Title:
+  = @age_group.title
+= link_to 'Edit', edit_age_group_path(@age_group)
+|
+= link_to 'Back', age_groups_path
