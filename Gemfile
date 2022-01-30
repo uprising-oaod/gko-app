@@ -8,6 +8,8 @@ ruby '2.7.3'
 gem 'bootsnap', '>= 1.4.4', require: false # Reduces boot times through caching; required in config/boot.rb
 gem 'bootstrap', '~> 5.1'
 gem 'devise'
+gem 'hamlit'
+gem 'haml-rails'
 gem 'jbuilder', '~> 2.7' # Build JSON APIs with ease
 gem 'paper_trail'
 gem 'pg', '~> 1.1' # Use postgresql as the database for Active Record
