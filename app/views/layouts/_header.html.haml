@@ -1,0 +1,29 @@
+%nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  .container-fluid
+    %a.navbar-brand{:href => "#"}
+      %h2.text-warning LogoHere
+    %button.navbar-toggler{"aria-label" => "Toggle", "data-bs-target" => "#mob-navbar", "data-bs-toggle" => "collapse", :type => "button"}
+      %span.navbar-toggler-icon
+    #mob-navbar.collapse.navbar-collapse
+      %ul.navbar-nav.mb-2.mb-lg-0.mx-auto
+        %li.nav-item
+          %a.nav-link.active{"aria-current" => "page", :href => "#"} Home
+        %li.nav-item
+          %a.nav-link{:href => "#"} About Us
+        %li.nav-item.dropdown
+          %a#navbarDropdown.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", :href => "#", :role => "button"} Our Services
+          %ul.dropdown-menu{"aria-labelledby" => "navbarDropdown"}
+            %li
+              %a.dropdown-item{:href => "#"} Web designing
+            %li
+              %a.dropdown-item{:href => "#"} Web Development
+            %li
+              %a.dropdown-item{:href => "#"} SEO Analysis
+            %li
+              %hr.dropdown-divider/
+            %li
+              %a.dropdown-item{:href => "#"} Explore More
+        %li.nav-item
+          %a.nav-link{:href => "#"} Contact Us
+      #new_session_form
+        = render 'devise/sessions/new'
