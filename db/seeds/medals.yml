@@ -1,0 +1,21 @@
+medals:
+  - code: gold
+    name: Золотой
+    title: Золотой знак ГТО
+    weight: 3
+  - code: silver
+    name: Серебряный
+    title: Серебряный знак ГТО
+    weight: 2
+  - code: bronze
+    name: Бронзовый
+    title: Золотой знак ГТО
+    weight: 1
+  - code: none
+    name: Нет
+    title: Нет знака ГТО
+    weight: 0
+  - code: unknown
+    name: Неизвестен
+    title: Неизвестное значение
+    weight: -1

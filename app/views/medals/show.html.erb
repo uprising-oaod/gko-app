@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @medal.code %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @medal.name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @medal.title %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @medal.weight %>
+</p>
+
+<%= link_to 'Edit', edit_medal_path(@medal) %> |
+<%= link_to 'Back', medals_path %>
