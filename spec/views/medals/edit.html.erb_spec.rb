@@ -12,7 +12,7 @@ RSpec.describe 'medals/edit', type: :view do
                             ))
   end
 
-  # rubocop:disable RSpec/InstanceVariable, RSpec/ExampleLength
+  # rubocop:disable RSpec/InstanceVariable
   it 'renders the edit medal form' do
     render
 
@@ -26,5 +26,5 @@ RSpec.describe 'medals/edit', type: :view do
       assert_select 'input[name=?]', 'medal[weight]'
     end
   end
-  # rubocop:enable RSpec/InstanceVariable, RSpec/ExampleLength
+  # rubocop:enable RSpec/InstanceVariable
 end
