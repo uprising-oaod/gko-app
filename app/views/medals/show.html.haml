@@ -1,0 +1,16 @@
+%p#notice= notice
+%p
+  %strong Code:
+  = @medal.code
+%p
+  %strong Name:
+  = @medal.name
+%p
+  %strong Title:
+  = @medal.title
+%p
+  %strong Weight:
+  = @medal.weight
+= link_to 'Edit', edit_medal_path(@medal)
+|
+= link_to 'Back', medals_path

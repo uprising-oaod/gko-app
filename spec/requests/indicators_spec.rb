@@ -14,8 +14,8 @@ require 'rails_helper'
 # of tools you can use to make these specs even more expressive, but we're
 # sticking to rails and rspec-rails APIs to keep things simple and stable.
 
-RSpec.describe '/medals', type: :request do
-  # Medal. As you add validations to Medal, be sure to
+RSpec.describe '/indicators', type: :request do
+  # Indicator. As you add validations to Indicator, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
     skip('Add a hash of attributes valid for your model')
@@ -27,58 +27,58 @@ RSpec.describe '/medals', type: :request do
 
   describe 'GET /index' do
     it 'renders a successful response' do
-      Medal.create! valid_attributes
-      get medals_url
+      Indicator.create! valid_attributes
+      get indicators_url
       expect(response).to be_successful
     end
   end
 
   describe 'GET /show' do
     it 'renders a successful response' do
-      medal = Medal.create! valid_attributes
-      get medal_url(medal)
+      indicator = Indicator.create! valid_attributes
+      get indicator_url(indicator)
       expect(response).to be_successful
     end
   end
 
   describe 'GET /new' do
     it 'renders a successful response' do
-      get new_medal_url
+      get new_indicator_url
       expect(response).to be_successful
     end
   end
 
   describe 'GET /edit' do
     it 'render a successful response' do
-      medal = Medal.create! valid_attributes
-      get edit_medal_url(medal)
+      indicator = Indicator.create! valid_attributes
+      get edit_indicator_url(indicator)
       expect(response).to be_successful
     end
   end
 
   describe 'POST /create' do
     context 'with valid parameters' do
-      it 'creates a new Medal' do
+      it 'creates a new Indicator' do
         expect do
-          post medals_url, params: { medal: valid_attributes }
-        end.to change(Medal, :count).by(1)
+          post indicators_url, params: { indicator: valid_attributes }
+        end.to change(Indicator, :count).by(1)
       end
 
-      it 'redirects to the created medal' do
-        post medals_url, params: { medal: valid_attributes }
-        expect(response).to redirect_to(medal_url(Medal.last))
+      it 'redirects to the created indicator' do
+        post indicators_url, params: { indicator: valid_attributes }
+        expect(response).to redirect_to(indicator_url(Indicator.last))
       end
     end
 
     context 'with invalid parameters' do
-      it 'does not create a new Medal' do
+      it 'does not create a new Indicator' do
         expect do
-          post medals_url, params: { medal: invalid_attributes }
-        end.to change(Medal, :count).by(0)
+          post indicators_url, params: { indicator: invalid_attributes }
+        end.to change(Indicator, :count).by(0)
       end
 
       it "renders a successful response (i.e. to display the 'new' template)" do
-        post medals_url, params: { medal: invalid_attributes }
+        post indicators_url, params: { indicator: invalid_attributes }
         expect(response).to be_successful
       end
     end
@@ -90,42 +90,42 @@ RSpec.describe '/medals', type: :request do
         skip('Add a hash of attributes valid for your model')
       end
 
-      it 'updates the requested medal' do
-        medal = Medal.create! valid_attributes
-        patch medal_url(medal), params: { medal: new_attributes }
-        medal.reload
+      it 'updates the requested indicator' do
+        indicator = Indicator.create! valid_attributes
+        patch indicator_url(indicator), params: { indicator: new_attributes }
+        indicator.reload
         skip('Add assertions for updated state')
       end
 
-      it 'redirects to the medal' do
-        medal = Medal.create! valid_attributes
-        patch medal_url(medal), params: { medal: new_attributes }
-        medal.reload
-        expect(response).to redirect_to(medal_url(medal))
+      it 'redirects to the indicator' do
+        indicator = Indicator.create! valid_attributes
+        patch indicator_url(indicator), params: { indicator: new_attributes }
+        indicator.reload
+        expect(response).to redirect_to(indicator_url(indicator))
       end
     end
 
     context 'with invalid parameters' do
       it "renders a successful response (i.e. to display the 'edit' template)" do
-        medal = Medal.create! valid_attributes
-        patch medal_url(medal), params: { medal: invalid_attributes }
+        indicator = Indicator.create! valid_attributes
+        patch indicator_url(indicator), params: { indicator: invalid_attributes }
         expect(response).to be_successful
       end
     end
   end
 
   describe 'DELETE /destroy' do
-    it 'destroys the requested medal' do
-      medal = Medal.create! valid_attributes
+    it 'destroys the requested indicator' do
+      indicator = Indicator.create! valid_attributes
       expect do
-        delete medal_url(medal)
-      end.to change(Medal, :count).by(-1)
+        delete indicator_url(indicator)
+      end.to change(Indicator, :count).by(-1)
     end
 
-    it 'redirects to the medals list' do
-      medal = Medal.create! valid_attributes
-      delete medal_url(medal)
-      expect(response).to redirect_to(medals_url)
+    it 'redirects to the indicators list' do
+      indicator = Indicator.create! valid_attributes
+      delete indicator_url(indicator)
+      expect(response).to redirect_to(indicators_url)
     end
   end
 end

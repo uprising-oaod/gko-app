@@ -12,7 +12,6 @@ RSpec.describe 'medals/new', type: :view do
                    ))
   end
 
-  # rubocop:disable RSpec/ExampleLength
   it 'renders new medal form' do
     render
 
@@ -26,5 +25,4 @@ RSpec.describe 'medals/new', type: :view do
       assert_select 'input[name=?]', 'medal[weight]'
     end
   end
-  # rubocop:enable RSpec/ExampleLength
 end

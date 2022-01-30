@@ -12,7 +12,6 @@ RSpec.describe 'medals/show', type: :view do
                             ))
   end
 
-  # rubocop:disable RSpec/MultipleExpectations
   it 'renders attributes in <p>' do
     render
     expect(rendered).to match(/Code/)
@@ -20,5 +19,4 @@ RSpec.describe 'medals/show', type: :view do
     expect(rendered).to match(/Title/)
     expect(rendered).to match(/2/)
   end
-  # rubocop:enable RSpec/MultipleExpectations
 end

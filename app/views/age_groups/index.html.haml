@@ -1,0 +1,24 @@
+%p#notice= notice
+%h1 Age Groups
+%table
+  %thead
+    %tr
+      %th Age
+      %th Gender
+      %th Code
+      %th Name
+      %th Title
+      %th{:colspan => "3"}
+  %tbody
+    - @age_groups.each do |age_group|
+      %tr
+        %td= age_group.age
+        %td= age_group.gender
+        %td= age_group.code
+        %td= age_group.name
+        %td= age_group.title
+        %td= link_to 'Show', age_group
+        %td= link_to 'Edit', edit_age_group_path(age_group)
+        %td= link_to 'Destroy', age_group, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Age Group', new_age_group_path

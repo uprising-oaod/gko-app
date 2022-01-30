@@ -1,0 +1,23 @@
+= form_with(model: medal) do |form|
+  - if medal.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(medal.errors.count, "error")
+        prohibited this medal from being saved:
+      %ul
+        - medal.errors.each do |error|
+          %li= error.full_message
+  .field
+    = form.label :code
+    = form.text_field :code
+  .field
+    = form.label :name
+    = form.text_field :name
+  .field
+    = form.label :title
+    = form.text_field :title
+  .field
+    = form.label :weight
+    = form.number_field :weight
+  .actions
+    = form.submit

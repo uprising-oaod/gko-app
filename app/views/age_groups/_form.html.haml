@@ -1,0 +1,26 @@
+= form_with(model: age_group) do |form|
+  - if age_group.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(age_group.errors.count, "error")
+        prohibited this age_group from being saved:
+      %ul
+        - age_group.errors.each do |error|
+          %li= error.full_message
+  .field
+    = form.label :age
+    = form.number_field :age
+  .field
+    = form.label :gender
+    = form.text_field :gender
+  .field
+    = form.label :code
+    = form.text_field :code
+  .field
+    = form.label :name
+    = form.text_field :name
+  .field
+    = form.label :title
+    = form.text_field :title
+  .actions
+    = form.submit
