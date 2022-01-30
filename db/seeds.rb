@@ -14,3 +14,5 @@ def yaml_seed(model, caption)
   end
   puts "Created #{created_items.size} #{model} values"
 end
+
+yaml_seed(Medal, 'medals')
