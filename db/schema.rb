@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_30_052050) do
+ActiveRecord::Schema.define(version: 2022_01_30_062649) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,30 @@ ActiveRecord::Schema.define(version: 2022_01_30_052050) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["code", "age", "gender"], name: "index_age_groups_on_code_and_age_and_gender", unique: true
+  end
+
+  create_table "indicator_medals", force: :cascade do |t|
+    t.bigint "age_group_id", null: false
+    t.bigint "indicator_id", null: false
+    t.float "min_value"
+    t.float "max_value"
+    t.bigint "medal_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["age_group_id", "indicator_id", "medal_id"], name: "index_indicator_medals_uniqueness", unique: true
+    t.index ["age_group_id"], name: "index_indicator_medals_on_age_group_id"
+    t.index ["indicator_id"], name: "index_indicator_medals_on_indicator_id"
+    t.index ["medal_id"], name: "index_indicator_medals_on_medal_id"
+  end
+
+  create_table "indicators", force: :cascade do |t|
+    t.string "code"
+    t.string "name"
+    t.string "title"
+    t.string "unit"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["code"], name: "index_indicators_on_code", unique: true
   end
 
   create_table "medals", force: :cascade do |t|
@@ -60,4 +84,7 @@ ActiveRecord::Schema.define(version: 2022_01_30_052050) do
     t.index ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id"
   end
 
+  add_foreign_key "indicator_medals", "age_groups"
+  add_foreign_key "indicator_medals", "indicators"
+  add_foreign_key "indicator_medals", "medals"
 end
