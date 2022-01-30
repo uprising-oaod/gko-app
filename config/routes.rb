@@ -7,8 +7,9 @@ Rails.application.routes.draw do
 
   mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
 
-  devise_for :users
+  resources :age_groups
   resources :medals
+  devise_for :users
   get 'welcome/index'
   get 'health/logs', as: 'health_logs'
 end
