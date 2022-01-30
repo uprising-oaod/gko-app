@@ -1,0 +1,13 @@
+%ol.list-group.list-group-flush
+  - if @file_body.count > 3000
+    - t = @file_body[@file_body.count-3000..@file_body.count]
+    - t.each do |value, index|
+      %li.list-group-item.py-0
+        %span
+          = value
+  - else
+    - @file_body.each do |value, index|
+      - if value.length > 1
+        %li.list-group-item.py-0
+          %span
+            = value
