@@ -26,11 +26,11 @@
           <a class="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Username" />
-        <input class="form-control me-2" type="password" placeholder="Password" />
-        <button class="btn btn-warning" type="submit">Login</button>
-      </form>
+
+      <div id="new_session_form">
+        <%= render 'devise/sessions/new' %>
+      </div>
+
     </div>
   </div>
 </nav>
