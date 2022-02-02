@@ -3,6 +3,8 @@ require 'nested_form/builder_mixin'
 
 RailsAdmin.config do |config|
 
+  config.excluded_models = ['IndicatorMedal']
+
   ### Popular gems integration
 
   ## == Devise ==

@@ -30,4 +30,83 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 ru:
-  hello: "Hello world"
+  activerecord:
+    errors:
+      messages:
+        record_invalid: 'Возникли ошибки: %{errors}'
+        restrict_dependent_destroy:
+          has_one: 'Невозможно удалить запись, так как существует зависимость: %{record}'
+          has_many: 'Невозможно удалить запись, так как существуют зависимости: %{record}'
+    models:
+      attachment:
+        one: вложение
+        few: вложения
+        many: вложений
+        more: вложений
+        other: вложения
+      event:
+        one: событие
+        few: события
+        many: событий
+        other: событий
+      message:
+        one: сообщение
+        few: сообщения
+        many: сообщений
+        other: сообщений
+      message_status:
+        one: статус сообщения
+        few: статуса сообщений
+        many: статусов сообщений
+        other: статусов сообщений
+      user:
+        one: пользователя
+        few: пользователей
+        many: пользоватлей
+        other: пользователей
+      age_group:
+        one: возрастная ступень
+        few: возрастных ступени
+        many: возрастных ступеней
+        other: возрастных ступени
+      indicator:
+        one: испытание
+        few: испытания
+        many: испытаний
+        other: испытания
+      medal:
+        one: знак ГТО
+        few: знака ГТО
+        many: знаков ГТО
+        other: знака ГТО
+  attributes:
+    user:
+      name: Имя
+      middle_name: Отчество
+      surname: Фамилия
+      login: Логин
+      email: Почтовый адрес
+      encrypted_password: Зашифрованный пароль
+      reset_password_token: Токен для сброса пароля
+      reset_password_sent_at: Пароль был сброшен
+      remember_created_at: Запомнить пароль?
+      phone: Телефон
+      thumbnailPhoto: Фотография
+    age_group:
+      age: Возраст
+      gender: Пол
+      code: Код
+      name: Краткое название
+      title: Полное название
+    indicator:
+      code: Код
+      name: Краткое название
+      title: Полное название
+      unit: Единицы измерения
+    medal:
+      code: Код
+      name: Краткое название
+      title: Полное название
+      weight: Ценность знака
+
+

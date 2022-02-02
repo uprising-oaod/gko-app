@@ -51,6 +51,7 @@ ru:
     table_headers:
       model_name: "Название модели"
       last_used: "Последнее раз использовалось"
+      last_created: "Последнее было создано"
       records: "Записи"
       username: "Пользователь"
       changes: "Изменения"
