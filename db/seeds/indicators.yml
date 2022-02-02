@@ -1,0 +1,169 @@
+indicators:
+  - code: naklon
+    name: Наклон вперед
+    title: Наклон вперед из положения стоя с прямыми ногами на гимнастической скамье
+    unit: raz
+  - code: sgibanie_ruk_lezha
+    name: Сгибание и разгибание рук в упоре лежа на полу
+    title: Сгибание и разгибание рук в упоре лежа на полу
+    unit: raz
+  - code: sgibanie_ruk_skamya
+    name: Сгибание и разгибание рук в упоре о гимнастическую скамью
+    title: Сгибание и разгибание рук в упоре о гимнастическую скамью
+    unit: raz
+  - code: sgibanie_ruk_sidenie
+    name: Сгибание и разгибание рук в упоре о сиденье стула
+    title: Сгибание и разгибание рук в упоре о сиденье стула
+    unit: raz
+  - code: podtyagiganie_na_vysok
+    name: Подтягивание из виса на высокой перекладине
+    title: Подтягивание из виса на высокой перекладине
+    unit: raz
+  - code: podtyagiganie_na_nizk
+    name: Подтягивание из виса лежа на низкой перекладине
+    title: Подтягивание из виса лежа на низкой перекладине 90 см
+    unit: raz
+  - code: girya
+    name: Рывок гири
+    title: Рывок гири 16 кг
+    unit: raz
+  - code: beg_chelnok
+    name: Челночный бег
+    title: Челночный бег 3х10 м
+    unit: second
+  - code: beg_30
+    name: Бег на 30 м
+    title: Бег на 30 м
+    unit: second
+  - code: beg_60
+    name: Бег на 60 м
+    title: Бег на 60 м
+    unit: second
+  - code: beg_100
+    name: Бег на 100 м
+    title: Бег на 100 м
+    unit: second
+  - code: beg_1000
+    name: Бег на 1 км
+    title: Бег на 1 км
+    unit: minute
+  - code: beg_1500
+    name: Бег на 1,5 км
+    title: Бег на 1,5 км
+    unit: minute
+  - code: beg_2000
+    name: Бег на 2 км
+    title: Бег на 2 км
+    unit: minute
+  - code: beg_3000
+    name: Бег на 3 км
+    title: Бег на 3 км
+    unit: minute
+  - code: smesh_dvi_1
+    name: Смешанное передвижение на 1 км
+    title: Смешанное передвижение на 1 км
+    unit: minute
+  - code: smesh_dvi_2
+    name: Смешанное передвижение на 2 км
+    title: Смешанное передвижение на 2 км
+    unit: minute
+  - code: smesh_dvi_3
+    name: Скандинавская ходьба на 3 км
+    title: Скандинавская ходьба на 3 км
+    unit: minute
+  - code: podnim_tul
+    name: Поднимание туловища из положения лежа на спине
+    title: Поднимание туловища из положения лежа на спине (количество раз за 1 минуту)
+    unit: raz
+  - code: plavanie_50
+    name: Плавание 50 м
+    title: Плавание 50 м
+    unit: minute
+  - code: plavanie_25
+    name: Плавание 25 м
+    title: Плавание 25 м
+    unit: minute
+  - code: strelba_elec
+    name: Стрельба из электронного оружия
+    title: Стрельба из электронного оружия
+    unit: score
+  - code: pryzhok_s_mesta
+    name: Прыжок в длину с места толчком двумя ногами
+    title: Прыжок в длину с места толчком двумя ногами
+    unit: sentimeter
+  - code: pryzhok_s_razbega
+    name: Прыжок в длину с разбега
+    title: Прыжок в длину с разбега
+    unit: sentimeter
+  - code: metanie_tennis
+    name: Метание теннисного мяча в цель
+    title: Метание теннисного мяча в цель, дистанция 6 м
+    unit: score
+  - code: metanie_150
+    name: Метание мяча весом 150 г
+    title: Метание мяча весом 150 г
+    unit: meter
+  - code: metanie_500
+    name: Метание спортивного снаряда весом 500 г
+    title: Метание спортивного снаряда весом 500 г
+    unit: meter
+  - code: metanie_700
+    name: Метание спортивного снаряда весом 700 г
+    title: Метание спортивного снаряда весом 700 г
+    unit: meter
+  - code: samozaschita
+    name: Самозащита без оружия
+    title: Самозащита без оружия (очки)
+    unit: score
+  - code: beg_lyzhi_1
+    name: Бег на лыжах на 1 км
+    title: Бег на лыжах на 1 км  (мин, с)
+    unit: minute
+  - code: beg_lyzhi_2
+    name: Бег на лыжах на 2 км
+    title: Бег на лыжах на 2 км  (мин, с)
+    unit: minute
+  - code: beg_lyzhi_3
+    name: Бег на лыжах на 3 км
+    title: Бег на лыжах на 3 км  (мин, с)
+    unit: minute
+  - code: beg_lyzhi_5
+    name: Бег на лыжах на 5 км
+    title: Бег на лыжах на 5 км  (мин, с)
+    unit: minute
+  - code: kross_1
+    name: Кросс на 1 км
+    title: Кросс на 1 км (бег по пересеченной местности) (мин, с)
+    unit: minute
+  - code: kross_2
+    name: Кросс на 2 км
+    title: Кросс на 2 км (бег по пересеченной местности) (мин, с)
+    unit: minute
+  - code: kross_3
+    name: Кросс на 3 км
+    title: Кросс на 3 км (бег по пересеченной местности) (мин, с)
+    unit: minute
+  - code: kross_5
+    name: Кросс на 5 км
+    title: Кросс на 5 км (бег по пересеченной местности) (мин, с)
+    unit: minute
+  - code: lyzhi_3
+    name: Передвижение на лыжах на 3 км
+    title: Передвижение на лыжах на 3 км (мин, с)
+    unit: minute
+  - code: smesh_peredv_3
+    name: Смешанное передвижение по пересечённой местности на 3 км
+    title: Смешанное передвижение по пересечённой местности на 3 км (мин, с)
+    unit: minute
+  - code: lyzhi_2
+    name: Передвижение на лыжах на 2 км
+    title: Передвижение на лыжах на 2 км (мин, с)
+    unit: minute
+  - code: smesh_peredv_2
+    name: Смешанное передвижение по пересечённой местности на 2 км
+    title: Смешанное передвижение по пересечённой местности на 2 км
+    unit: minute
+  - code: turist
+    name: Туристский поход с проверкой туристских навыков
+    title: Туристский поход с проверкой туристских навыков (протяженность не менее, км)
+    unit: kilometer
