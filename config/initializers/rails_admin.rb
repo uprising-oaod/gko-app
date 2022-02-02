@@ -18,7 +18,7 @@ RailsAdmin.config do |config|
   # config.authorize_with :pundit
 
   ## == PaperTrail ==
-  # config.audit_with :paper_trail, 'User', 'PaperTrail::Version' # PaperTrail >= 3.0.0
+  config.audit_with :paper_trail, 'User', 'PaperTrail::Version' # PaperTrail >= 3.0.0
 
   ### More at https://github.com/sferik/rails_admin/wiki/Base-configuration
 
@@ -31,10 +31,12 @@ RailsAdmin.config do |config|
     index                         # mandatory
     new
     export
+    history_index
     bulk_delete
     show
     edit
     delete
+    history_show
     show_in_app
 
     ## With an audit adapter, you can add:
