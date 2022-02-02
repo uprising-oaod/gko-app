@@ -9,6 +9,7 @@ class CreateAgeGroups < ActiveRecord::Migration[6.1]
 
       t.timestamps
     end
-    add_index :age_groups, %i[code age gender], unique: true
+    add_index :age_groups, :code, unique: true
+    add_index :age_groups, %i[age gender], unique: true
   end
 end

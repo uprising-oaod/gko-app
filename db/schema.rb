@@ -23,7 +23,8 @@ ActiveRecord::Schema.define(version: 2022_01_30_062649) do
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["code", "age", "gender"], name: "index_age_groups_on_code_and_age_and_gender", unique: true
+    t.index ["age", "gender"], name: "index_age_groups_on_age_and_gender", unique: true
+    t.index ["code"], name: "index_age_groups_on_code", unique: true
   end
 
   create_table "indicator_medals", force: :cascade do |t|
