@@ -30,6 +30,13 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 ru:
+  attributes:
+    id: №
+    code: Код
+    name: Краткое название
+    title: Полное название
+    created_at: Создано
+    updated_at: Изменено
   activerecord:
     errors:
       messages:
@@ -79,34 +86,25 @@ ru:
         few: знака ГТО
         many: знаков ГТО
         other: знака ГТО
-  attributes:
-    user:
-      name: Имя
-      middle_name: Отчество
-      surname: Фамилия
-      login: Логин
-      email: Почтовый адрес
-      encrypted_password: Зашифрованный пароль
-      reset_password_token: Токен для сброса пароля
-      reset_password_sent_at: Пароль был сброшен
-      remember_created_at: Запомнить пароль?
-      phone: Телефон
-      thumbnailPhoto: Фотография
-    age_group:
-      age: Возраст
-      gender: Пол
-      code: Код
-      name: Краткое название
-      title: Полное название
-    indicator:
-      code: Код
-      name: Краткое название
-      title: Полное название
-      unit: Единицы измерения
-    medal:
-      code: Код
-      name: Краткое название
-      title: Полное название
-      weight: Ценность знака
+    attributes:
+      user:
+        name: Имя
+        middle_name: Отчество
+        surname: Фамилия
+        login: Логин
+        email: Почтовый адрес
+        encrypted_password: Зашифрованный пароль
+        reset_password_token: Токен для сброса пароля
+        reset_password_sent_at: Пароль был сброшен
+        remember_created_at: Запомнить пароль?
+        phone: Телефон
+        thumbnailPhoto: Фотография
+      age_group:
+        age: Возраст
+        gender: Пол
+      indicator:
+        unit: Единицы измерения
+      medal:
+        weight: Ценность знака
 
 
