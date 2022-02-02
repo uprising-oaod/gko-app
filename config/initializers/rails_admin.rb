@@ -2,8 +2,31 @@ require 'nested_form/engine'
 require 'nested_form/builder_mixin'
 
 RailsAdmin.config do |config|
+  config.main_app_name = ['Знаки ГТО -', 'Административная панель']
+  config.parent_controller = 'ApplicationController'
 
+  ### Model configuration
   config.excluded_models = ['IndicatorMedal']
+
+  config.model 'AgeGroup' do
+    label 'Возрастной разряд'
+    label_plural 'Возрастные разряды'
+  end
+
+  config.model 'Indicator' do
+    label 'Вид испытания'
+    label_plural 'Испытания'
+  end
+
+  config.model 'Medal' do
+    label 'Вид знака ГТО'
+    label_plural 'Виды знаков ГТО'
+  end
+
+  config.model 'User' do
+    label 'Пользователь'
+    label_plural 'Пользователи'
+  end
 
   ### Popular gems integration
 
