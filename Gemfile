@@ -9,7 +9,7 @@ gem 'bootsnap', '>= 1.4.4', require: false # Reduces boot times through caching;
 gem 'bootstrap', '~> 5.1'
 gem 'devise'
 gem 'hamlit'
-# gem 'haml-rails' # Раскомментировать, для выполнения команды rails haml:erb2haml
+gem 'haml-rails' # Раскомментировать, для выполнения команды rails haml:erb2haml
 gem 'jbuilder', '~> 2.7' # Build JSON APIs with ease
 gem 'paper_trail'
 gem 'pg', '~> 1.1' # Use postgresql as the database for Active Record

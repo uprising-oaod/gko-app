@@ -1,0 +1,24 @@
+%p#notice= notice
+%h1 Indicator Medals
+%table
+  %thead
+    %tr
+      %th Age group
+      %th Indicator
+      %th Min value
+      %th Max value
+      %th Medal
+      %th{:colspan => "3"}
+  %tbody
+    - @indicator_medals.each do |indicator_medal|
+      %tr
+        %td= indicator_medal.age_group_id
+        %td= indicator_medal.indicator_id
+        %td= indicator_medal.min_value
+        %td= indicator_medal.max_value
+        %td= indicator_medal.medal_id
+        %td= link_to 'Show', indicator_medal
+        %td= link_to 'Edit', edit_indicator_medal_path(indicator_medal)
+        %td= link_to 'Destroy', indicator_medal, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Indicator Medal', new_indicator_medal_path

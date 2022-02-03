@@ -1,0 +1,26 @@
+= form_with(model: indicator_medal) do |form|
+  - if indicator_medal.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(indicator_medal.errors.count, "error")
+        prohibited this indicator_medal from being saved:
+      %ul
+        - indicator_medal.errors.each do |error|
+          %li= error.full_message
+  .field
+    = form.label :age_group_id
+    = form.text_field :age_group_id
+  .field
+    = form.label :indicator_id
+    = form.text_field :indicator_id
+  .field
+    = form.label :min_value
+    = form.text_field :min_value
+  .field
+    = form.label :max_value
+    = form.text_field :max_value
+  .field
+    = form.label :medal_id
+    = form.text_field :medal_id
+  .actions
+    = form.submit

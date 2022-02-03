@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
 
   resources :age_groups
+  resources :indicator_medals
   resources :indicators
   resources :medals
   devise_for :users

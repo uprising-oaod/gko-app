@@ -1,0 +1,19 @@
+%p#notice= notice
+%p
+  %strong Age group:
+  = @indicator_medal.age_group_id
+%p
+  %strong Indicator:
+  = @indicator_medal.indicator_id
+%p
+  %strong Min value:
+  = @indicator_medal.min_value
+%p
+  %strong Max value:
+  = @indicator_medal.max_value
+%p
+  %strong Medal:
+  = @indicator_medal.medal_id
+= link_to 'Edit', edit_indicator_medal_path(@indicator_medal)
+|
+= link_to 'Back', indicator_medals_path
