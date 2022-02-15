@@ -16,14 +16,12 @@ ActiveRecord::Schema.define(version: 2022_01_30_062649) do
   enable_extension "plpgsql"
 
   create_table "age_groups", force: :cascade do |t|
-    t.integer "age"
     t.string "gender"
     t.string "code"
     t.string "name"
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["age", "gender"], name: "index_age_groups_on_age_and_gender", unique: true
     t.index ["code"], name: "index_age_groups_on_code", unique: true
   end
 

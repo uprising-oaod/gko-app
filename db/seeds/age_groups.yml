@@ -3,1017 +3,139 @@ age_groups:
     name: Возраст мал
     title: Возраст мал
     gender: m
-    age: 0
   - code: 0f0
     name: Возраст мал
     title: Возраст мал
     gender: f
-    age: 0
-  - code: 1m0
-    name: Возраст мал
-    title: Возраст мал
-    gender: m
-    age: 1
-  - code: 1f0
-    name: Возраст мал
-    title: Возраст мал
-    gender: f
-    age: 1
-  - code: 2m0
-    name: Возраст мал
-    title: Возраст мал
-    gender: m
-    age: 2
-  - code: 2f0
-    name: Возраст мал
-    title: Возраст мал
-    gender: f
-    age: 2
-  - code: 3m0
-    name: Возраст мал
-    title: Возраст мал
-    gender: m
-    age: 3
-  - code: 3f0
-    name: Возраст мал
-    title: Возраст мал
-    gender: f
-    age: 3
-  - code: 4m0
-    name: Возраст мал
-    title: Возраст мал
-    gender: m
-    age: 4
-  - code: 4f0
-    name: Возраст мал
-    title: Возраст мал
-    gender: f
-    age: 4
-  - code: 5m0
-    name: Возраст мал
-    title: Возраст мал
-    gender: m
-    age: 5
-  - code: 5f0
-    name: Возраст мал
-    title: Возраст мал
-    gender: f
-    age: 5
   - code: 6m1
     name: I (6-8 лет)
     title: I (6-8 лет)
     gender: m
-    age: 6
   - code: 6f1
     name: I (6-8 лет)
     title: I (6-8 лет)
     gender: f
-    age: 6
-  - code: 7m1
-    name: I (6-8 лет)
-    title: I (6-8 лет)
-    gender: m
-    age: 7
-  - code: 7f1
-    name: I (6-8 лет)
-    title: I (6-8 лет)
-    gender: f
-    age: 7
-  - code: 8m1
-    name: I (6-8 лет)
-    title: I (6-8 лет)
-    gender: m
-    age: 8
-  - code: 8f1
-    name: I (6-8 лет)
-    title: I (6-8 лет)
-    gender: f
-    age: 8
   - code: 9m2
     name: II (9-10 лет)
     title: II (9-10 лет)
     gender: m
-    age: 9
   - code: 9f2
     name: II (9-10 лет)
     title: II (9-10 лет)
     gender: f
-    age: 9
-  - code: 10m2
-    name: II (9-10 лет)
-    title: II (9-10 лет)
-    gender: m
-    age: 10
-  - code: 10f2
-    name: II (9-10 лет)
-    title: II (9-10 лет)
-    gender: f
-    age: 10
   - code: 11m3
     name: III (11-12 лет)
     title: III (11-12 лет)
     gender: m
-    age: 11
   - code: 11f3
     name: III (11-12 лет)
     title: III (11-12 лет)
     gender: f
-    age: 11
-  - code: 12m3
-    name: III (11-12 лет)
-    title: III (11-12 лет)
-    gender: m
-    age: 12
-  - code: 12f3
-    name: III (11-12 лет)
-    title: III (11-12 лет)
-    gender: f
-    age: 12
   - code: 13m4
     name: IV (13-15 лет)
     title: IV (13-15 лет)
     gender: m
-    age: 13
   - code: 13f4
     name: IV (13-15 лет)
     title: IV (13-15 лет)
     gender: f
-    age: 13
-  - code: 14m4
-    name: IV (13-15 лет)
-    title: IV (13-15 лет)
-    gender: m
-    age: 14
-  - code: 14f4
-    name: IV (13-15 лет)
-    title: IV (13-15 лет)
-    gender: f
-    age: 14
-  - code: 15m4
-    name: IV (13-15 лет)
-    title: IV (13-15 лет)
-    gender: m
-    age: 15
-  - code: 15f4
-    name: IV (13-15 лет)
-    title: IV (13-15 лет)
-    gender: f
-    age: 15
   - code: 16m5
     name: V (16-17 лет)
     title: V (16-17 лет)
     gender: m
-    age: 16
   - code: 16f5
     name: V (16-17 лет)
     title: V (16-17 лет)
     gender: f
-    age: 16
-  - code: 17m5
-    name: V (16-17 лет)
-    title: V (16-17 лет)
-    gender: m
-    age: 17
-  - code: 17f5
-    name: V (16-17 лет)
-    title: V (16-17 лет)
-    gender: f
-    age: 17
   - code: 18m61
     name: VI (18-24 лет)
     title: VI (18-24 лет)
     gender: m
-    age: 18
   - code: 18f61
     name: VI (18-24 лет)
     title: VI (18-24 лет)
     gender: f
-    age: 18
-  - code: 19m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 19
-  - code: 19f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 19
-  - code: 20m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 20
-  - code: 20f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 20
-  - code: 21m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 21
-  - code: 21f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 21
-  - code: 22m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 22
-  - code: 22f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 22
-  - code: 23m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 23
-  - code: 23f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 23
-  - code: 24m61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: m
-    age: 24
-  - code: 24f61
-    name: VI (18-24 лет)
-    title: VI (18-24 лет)
-    gender: f
-    age: 24
   - code: 25m62
     name: VI (25-29 лет)
     title: VI (25-29 лет)
     gender: m
-    age: 25
   - code: 25f62
     name: VI (25-29 лет)
     title: VI (25-29 лет)
     gender: f
-    age: 25
-  - code: 26m62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: m
-    age: 26
-  - code: 26f62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: f
-    age: 26
-  - code: 27m62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: m
-    age: 27
-  - code: 27f62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: f
-    age: 27
-  - code: 28m62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: m
-    age: 28
-  - code: 28f62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: f
-    age: 28
-  - code: 29m62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: m
-    age: 29
-  - code: 29f62
-    name: VI (25-29 лет)
-    title: VI (25-29 лет)
-    gender: f
-    age: 29
   - code: 30m71
     name: VII (30-34 лет)
     title: VII (30-34 лет)
     gender: m
-    age: 30
   - code: 30f71
     name: VII (30-34 лет)
     title: VII (30-34 лет)
     gender: f
-    age: 30
-  - code: 31m71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: m
-    age: 31
-  - code: 31f71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: f
-    age: 31
-  - code: 32m71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: m
-    age: 32
-  - code: 32f71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: f
-    age: 32
-  - code: 33m71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: m
-    age: 33
-  - code: 33f71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: f
-    age: 33
-  - code: 34m71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: m
-    age: 34
-  - code: 34f71
-    name: VII (30-34 лет)
-    title: VII (30-34 лет)
-    gender: f
-    age: 34
   - code: 35m72
     name: VII (35-39 лет)
     title: VII (35-39 лет)
     gender: m
-    age: 35
   - code: 35f72
     name: VII (35-39 лет)
     title: VII (35-39 лет)
     gender: f
-    age: 35
-  - code: 36m72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: m
-    age: 36
-  - code: 36f72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: f
-    age: 36
-  - code: 37m72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: m
-    age: 37
-  - code: 37f72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: f
-    age: 37
-  - code: 38m72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: m
-    age: 38
-  - code: 38f72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: f
-    age: 38
-  - code: 3972
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: m
-    age: 39
-  - code: 39f72
-    name: VII (35-39 лет)
-    title: VII (35-39 лет)
-    gender: f
-    age: 39
   - code: 40m81
     name: VIII (40-44 лет)
     title: VIII (40-44 лет)
     gender: m
-    age: 40
   - code: 40f81
     name: VIII (40-44 лет)
     title: VIII (40-44 лет)
     gender: f
-    age: 40
   - code: 41m81
     name: VIII (40-44 лет)
     title: VIII (40-44 лет)
     gender: m
-    age: 41
-  - code: 41f81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: f
-    age: 41
-  - code: 42m81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: m
-    age: 42
-  - code: 42f81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: f
-    age: 42
-  - code: 43m81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: m
-    age: 43
-  - code: 43f81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: f
-    age: 43
-  - code: 44m81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: m
-    age: 44
-  - code: 44f81
-    name: VIII (40-44 лет)
-    title: VIII (40-44 лет)
-    gender: f
-    age: 44
   - code: 45m82
     name: VIII (45-49 лет)
     title: VIII (45-49 лет)
     gender: m
-    age: 45
   - code: 45f82
     name: VIII (45-49 лет)
     title: VIII (45-49 лет)
     gender: f
-    age: 45
-  - code: 46m82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: m
-    age: 46
-  - code: 46f82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: f
-    age: 46
-  - code: 47m82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: m
-    age: 47
-  - code: 47f82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: f
-    age: 47
-  - code: 48m82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: m
-    age: 48
-  - code: 48f82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: f
-    age: 48
-  - code: 49m82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: m
-    age: 49
-  - code: 49f82
-    name: VIII (45-49 лет)
-    title: VIII (45-49 лет)
-    gender: f
-    age: 49
   - code: 50m91
     name: IX (50-54 лет)
     title: IX (50-54 лет)
     gender: m
-    age: 50
   - code: 50f91
     name: IX (50-54 лет)
     title: IX (50-54 лет)
     gender: f
-    age: 50
-  - code: 51m91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: m
-    age: 51
-  - code: 51f91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: f
-    age: 51
-  - code: 52m91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: m
-    age: 52
-  - code: 52f91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: f
-    age: 52
-  - code: 53m91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: m
-    age: 53
-  - code: 53f91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: f
-    age: 53
-  - code: 54m91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: m
-    age: 54
-  - code: 54f91
-    name: IX (50-54 лет)
-    title: IX (50-54 лет)
-    gender: f
-    age: 54
   - code: 55m92
     name: IX (55-59 лет)
     title: IX (55-59 лет)
     gender: m
-    age: 55
   - code: 55f92
     name: IX (55-59 лет)
     title: IX (55-59 лет)
     gender: f
-    age: 55
-  - code: 56m92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: m
-    age: 56
-  - code: 56f92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: f
-    age: 56
-  - code: 57m92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: m
-    age: 57
-  - code: 57f92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: f
-    age: 57
-  - code: 58m92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: m
-    age: 58
-  - code: 58f92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: f
-    age: 58
-  - code: 59m92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: m
-    age: 59
-  - code: 59f92
-    name: IX (55-59 лет)
-    title: IX (55-59 лет)
-    gender: f
-    age: 59
   - code: 60m101
     name: X (60-64 лет)
     title: X (60-64 лет)
     gender: m
-    age: 60
   - code: 60f101
     name: X (60-64 лет)
     title: X (60-64 лет)
     gender: f
-    age: 60
-  - code: 61m101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: m
-    age: 61
-  - code: 61f101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: f
-    age: 61
-  - code: 62m101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: m
-    age: 62
-  - code: 62f101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: f
-    age: 62
-  - code: 63m101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: m
-    age: 63
-  - code: 63f101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: f
-    age: 63
-  - code: 64m101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: m
-    age: 64
-  - code: 64f101
-    name: X (60-64 лет)
-    title: X (60-64 лет)
-    gender: f
-    age: 64
   - code: 65m102
     name: X (65-69 лет)
     title: X (65-69 лет)
     gender: m
-    age: 65
   - code: 65f102
     name: X (65-69 лет)
     title: X (65-69 лет)
     gender: f
-    age: 65
-  - code: 66m102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: m
-    age: 66
-  - code: 66f102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: f
-    age: 66
-  - code: 67m102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: m
-    age: 67
-  - code: 67f102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: f
-    age: 67
-  - code: 68m102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: m
-    age: 68
-  - code: 68f102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: f
-    age: 68
-  - code: 69m102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: m
-    age: 69
-  - code: 69f102
-    name: X (65-69 лет)
-    title: X (65-69 лет)
-    gender: f
-    age: 69
   - code: 70m11
     name: XI (70 лет и старше)
     title: XI (70 лет и старше)
     gender: m
-    age: 70
   - code: 70f11
     name: XI (70 лет и старше)
     title: XI (70 лет и старше)
     gender: f
-    age: 70
-  - code: 71m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 71
-  - code: 71f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 71
-  - code: 72m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 72
-  - code: 72f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 72
-  - code: 73m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 73
-  - code: 73f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 73
-  - code: 74m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 74
-  - code: 74f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 74
-  - code: 75m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 75
-  - code: 75f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 75
-  - code: 76m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 76
-  - code: 76f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 76
-  - code: 77m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 77
-  - code: 77f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 77
-  - code: 78m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 78
-  - code: 78f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 78
-  - code: 79m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 79
-  - code: 79f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 79
-  - code: 80m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 80
-  - code: 80f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 80
-  - code: 81m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 81
-  - code: 81f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 81
-  - code: 82m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 82
-  - code: 82f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 82
-  - code: 83m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 83
-  - code: 83f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 83
-  - code: 84m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 84
-  - code: 84f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 84
-  - code: 85m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 85
-  - code: 85f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 85
-  - code: 86m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 86
-  - code: 86f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 86
-  - code: 87m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 87
-  - code: 87f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 87
-  - code: 88m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 88
-  - code: 88f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 88
-  - code: 89m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 89
-  - code: 89f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 89
-  - code: 90m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 90
-  - code: 90f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 90
-  - code: 91m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 91
-  - code: 91f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 91
-  - code: 92m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 92
-  - code: 92f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 92
-  - code: 93m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 93
-  - code: 93f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 93
-  - code: 94m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 94
-  - code: 94f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 94
-  - code: 95m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 95
-  - code: 95f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 95
-  - code: 96m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 96
-  - code: 96f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 96
-  - code: 97m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 97
-  - code: 97f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 97
-  - code: 98m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 98
-  - code: 98f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 98
-  - code: 99m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 99
-  - code: 99f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 99
-  - code: 100m11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: m
-    age: 100
-  - code: 100f11
-    name: XI (70 лет и старше)
-    title: XI (70 лет и старше)
-    gender: f
-    age: 100
-
-
-
-
-
-
-
-
