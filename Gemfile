@@ -22,6 +22,7 @@ gem 'rubocop-rails'
 gem 'rubocop-rspec'
 gem 'russian'
 gem 'sass-rails', '>= 6' # Use SCSS for stylesheets
+gem 'simple_form'
 gem 'turbolinks', '~> 5' # Turbolinks makes navigating your web application faster
 gem 'webpacker', '~> 5.0' # Transpile app-like JavaScript
 gem 'yard'
