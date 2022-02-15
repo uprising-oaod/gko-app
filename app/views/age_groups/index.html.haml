@@ -12,13 +12,13 @@
   %tbody
     - @age_groups.each do |age_group|
       %tr
-        %td= age_group.age
         %td= age_group.gender
         %td= age_group.code
         %td= age_group.name
         %td= age_group.title
+        %td= link_to 'Добавить', new_indicator_medal_path(indicator_medal: {age_group_id: age_group.id})
         %td= link_to 'Show', age_group
-        %td= link_to 'Edit', edit_age_group_path(age_group)
-        %td= link_to 'Destroy', age_group, method: :delete, data: { confirm: 'Are you sure?' }
+        -#%td= link_to 'Edit', edit_age_group_path(age_group)
+        -#%td= link_to 'Destroy', age_group, method: :delete, data: { confirm: 'Are you sure?' }
 %br/
 = link_to 'New Age Group', new_age_group_path

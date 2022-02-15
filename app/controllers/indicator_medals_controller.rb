@@ -13,7 +13,7 @@ class IndicatorMedalsController < ApplicationController
 
   # GET /indicator_medals/new
   def new
-    @indicator_medal = IndicatorMedal.new
+    @indicator_medal = IndicatorMedal.new(age_group_id: indicator_medal_params[:age_group_id])
   end
 
   # GET /indicator_medals/1/edit
