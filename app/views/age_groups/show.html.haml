@@ -1,19 +1,34 @@
 %p#notice= notice
 %p
-  %strong Age:
-  = @age_group.age
-%p
   %strong Gender:
-  = @age_group.gender
+  = @age_group.first.gender
 %p
   %strong Code:
-  = @age_group.code
+  = @age_group.first.code
 %p
   %strong Name:
-  = @age_group.name
+  = @age_group.first.name
 %p
   %strong Title:
-  = @age_group.title
-= link_to 'Edit', edit_age_group_path(@age_group)
+  = @age_group.first.title
+%table.table.table-striped.table-hover
+  %thead
+    %tr
+      %td Показатель
+      %td= Medal.find_by(code: :bronze).name
+      %td= Medal.find_by(code: :silver).name
+      %td= Medal.find_by(code: :gold).name
+      %td Действия
+  %tbody
+    %tr
+      - @age_group.first.indicators.uniq.each do |indicator|
+        %td= indicator.name
+        %td= "#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :bronze)).min_value}-#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :bronze)).max_value}"
+        %td= "#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :silver)).min_value}-#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :silver)).max_value}"
+        %td= "#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :gold)).min_value}-#{@age_group.first.indicator_medals.find_by(indicator_id: indicator.id, medal_id: Medal.find_by(code: :gold)).max_value}"
+        %td Пока действий нет
+= link_to 'Добавить', new_indicator_medal_path(indicator_medal: {age_group_id: @age_group.first.id})
 |
-= link_to 'Back', age_groups_path
+= link_to 'Редактировать', edit_age_group_path(@age_group.first)
+|
+= link_to 'Список', age_groups_path

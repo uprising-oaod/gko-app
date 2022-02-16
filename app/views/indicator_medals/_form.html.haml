@@ -1,7 +1,10 @@
 = simple_form_for indicator_medal do |f|
   = f.association :age_group
   = f.association :indicator
-  = f.input :min_value
-  = f.input :max_value
-  = f.association :medal
+  = f.input :min_value_bronze
+  = f.input :max_value_bronze
+  = f.input :min_value_silver
+  = f.input :max_value_silver
+  = f.input :min_value_gold
+  = f.input :max_value_gold
   = f.button :submit

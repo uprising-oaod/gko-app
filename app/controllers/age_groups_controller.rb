@@ -2,7 +2,7 @@
 
 # Контроллер для работы с возрастными групаами
 class AgeGroupsController < ApplicationController
-  before_action :set_age_group, only: %i[show edit update destroy]
+  before_action :set_age_group, only: %i[edit update destroy]
 
   # GET /age_groups or /age_groups.json
   def index
@@ -10,7 +10,9 @@ class AgeGroupsController < ApplicationController
   end
 
   # GET /age_groups/1 or /age_groups/1.json
-  def show; end
+  def show
+    @age_group = AgeGroup.where(id: params[:id]).includes(:indicator_medals, :indicators, :medals)
+  end
 
   # GET /age_groups/new
   def new
