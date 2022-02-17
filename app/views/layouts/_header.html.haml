@@ -14,8 +14,6 @@
           %a#navbarDropdown.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#", role: "button"} Служебное
           %ul.dropdown-menu{"aria-labelledby" => "navbarDropdown"}
             %li
-              %a.dropdown-item{href: rails_admin.dashboard_path} Редактор
-            %li
               %a.dropdown-item{href: health_logs_path} Мониторинг
             %li
               %a.dropdown-item{href: "#"} Документация
@@ -23,6 +21,19 @@
               %hr.dropdown-divider/
             %li
               %a.dropdown-item{href: "#"} Дополнительно...
+        %li.nav-item.dropdown
+          %a#navbarDropdown.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#", role: "button"} Редактор
+          %ul.dropdown-menu{"aria-labelledby" => "navbarDropdown"}
+            %li
+              %a.dropdown-item{href: age_groups_path} Возрастные категории
+            %li
+              %a.dropdown-item{href: indicators_path} Испытания
+            %li
+              %a.dropdown-item{href: indicator_medals_path} Показатели
+            %li
+              %hr.dropdown-divider/
+            %li
+              %a.dropdown-item{href: rails_admin.dashboard_path} Дополнительно...
         %li.nav-item
           %a.nav-link{href: "#"} Свяжитесь с нами
       #new_session_form
